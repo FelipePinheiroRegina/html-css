@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+@font-face {
+    font-family: 'Old';
+    src: url(fonts/font-v.ttf) format('TrueType');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #b31600;
+    --cor1: #fffd39;
+    --cor2: #f5f200;
+    --cor3: #0600ab;
+    --cor4: #0901f5;
+
+    --fonteCabeçalho:'old', 'cursive';
+    --fonteresto: 'Aboreto', 'cursive';
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(82, 151, 255, 0.342);
+}    
+
+nav {
+    background-color: var(--cor4);
+    font-family: var(--fonteCabeçalho);
+    padding: 15px;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+    
+    
+}
+
+nav > a:hover {
+    background-color:var(--cor3);
+    border-radius: 10px;
+    transition-duration: 0.9s;
+    padding: 15px;
+}
+
+nav > a::after {
+    content: '\00a0\1F4AA';
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor3), var(--cor4));
+    color: var(--cor2);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.301);
+}
+
+
+header h1 {
+    font-family: var(--fonteCabeçalho);
+    padding-bottom: 40px;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+header p {
+    font-family: var(--fonteCabeçalho);
+    text-shadow: 1px 1px 3px black;
+    font-size: 1.5em;
+}
+
+main {
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 5px 5px black;
+    padding: 30px;
+}
+
+main h1 {
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font-family: var(--fonteresto);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    margin: 30px 10px 30px 10px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+main p {
+    font-family: 'Aboreto', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-indent: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+main p.manguitoe {
+    max-width: 600px;
+}
+
+main p.manguitoc {
+    display: block;
+    margin-left: auto;
+    max-width: 600px;
+}
+
+main img {
+    box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+}
+
+main picture  img {
+    display: block;
+    margin: 30px 0px 30px auto;
+}
+
+main img.certo {
+    display: block;
+    margin: 30px 0px 30px auto;
+}
+
+main img.errado {
+    display: block;
+    margin: 30px auto 30px 0px;
+}
+
+
+main img.inteira {
+    width: 80%;
+    margin: 30px 0px 30px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+main article > ul {
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+main h3 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+    text-shadow: 3px 3px 3px black;
+}
+
+aside > p {
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+main a {
+    font-family: var(--fonteresto);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+main aside {
+    font-family: var(--fonteresto);
+    font-weight: bolder;
+    background-image: linear-gradient(to top, var(--cor3), var(--cor4));
+    color: var(--cor2);
+    margin: 30px -30px 30px -30px;
+    padding-bottom: 80px;
+    box-shadow: 0px 0px 6px black;
+    
+}
+
+main aside li {
+    color: var(--cor2);
+    text-shadow: 3px 3px 3px black;
+    line-height: 40px;
+}
+
+main aside ul {
+    padding-bottom: 30px;
+}
+
+main aside li:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    width: 180px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+main .ultimop {
+    text-decoration: underline;
+    margin: -30px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 30px;
+    text-decoration: underline;
+    text-shadow: 0px 0px 2px black;
+   
+}
+
+footer p {
+    text-align: left;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    
+}
+
+footer a {
+    color: black;
+}
+
+footer ul {
+    text-align: left;
+    list-style-position: inside;
+    columns: 3;
+    padding-top: 30px;
+}
+
+footer a:hover {
+    color: var(--cor0);
+}
+
+
+
+
+
+
+
+
