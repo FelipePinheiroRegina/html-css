@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color:white;
+    background-color:lightgray;
 }
 
 header {
@@ -55,11 +55,8 @@ h1#riven {
 }
 
 main {
-    background-color: black;
-    color: #F0E6D2;
-    margin: 50px;
+    color: #242322;
     padding: 20px;
-    box-shadow: 1px 1px 2px black;
 }
 
 main h1 {
@@ -67,7 +64,7 @@ main h1 {
     font-family: var(--fonte2);
     font-size: 3em;
     text-align: center;
-    margin: -20px -20px 0px -20px;
+    margin: 20px -20px 20px -20px;
     padding: 20px;
     font-style: italic;
     
@@ -84,8 +81,20 @@ main p {
     font-size: 1em;
     font-weight: normal;
     line-height: 40px;
-    text-align: justify;
     padding-bottom: 15px;
     text-indent: 10px;
-    letter-spacing: 0.1em;
+    text-shadow: 0px 0px 1px black;
+}
+
+section.imagem > p {
+   background-color: rgba(211, 211, 211, 0.596);
+    width: 400px;
+}
+
+section.imagem {
+    background-image: url(../imagens/diana.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
 }
