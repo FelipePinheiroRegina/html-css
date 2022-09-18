@@ -20,6 +20,12 @@ body {
 :root {
     --fonte1:'medieval', cursive;
     --fonte2:'Permanent Marker', cursive;
+    --fonte3: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--fonte3);
+    color: white;
 }
 
 header {
@@ -52,5 +58,28 @@ div h1 {
 div p {
     padding-left: 110px;
     font-size: 2.5vw;
+    line-height: 40px;
 }
+
+section#diana {
+    background-image: url(../imagens/diana-rosto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left 90%;
+    
+}
+
+section p {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    width: 400px;
+    padding: 30px;
+    text-align: justify;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: #00091369;
+}
+
 
