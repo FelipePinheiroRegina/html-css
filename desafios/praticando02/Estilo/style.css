@@ -13,82 +13,44 @@
     padding: 0px;
 }
 
+body {
+    background-color: #000913;
+}
+
 :root {
     --fonte1:'medieval', cursive;
     --fonte2:'Permanent Marker', cursive;
 }
 
-html, body {
-    background-color: lightgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 header {
     font-family: var(--fonte1);
+    text-align: center;
+    font-style: italic;
     background-color: black;
     color: white;
-    padding: 30px 0px 30px 0px;
-    text-align: center;
-    font-style: italic;
-    font-size: 4vw;
-    letter-spacing: 0.1em ;
-    text-shadow: 1px 1px 2px white;
-    box-shadow: 1px 1px 1px black;
+    padding: 50px 0px 50px 0px;
+    font-size: 5vw;
+    text-shadow: 0px 0px 3px white;
 }
 
-h1#diana {
-    font-family: var(--fonte2);
-    color: white;
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-    padding: 20px;
-    background-image: url(../imagens/diana-titulo.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 30% 30%;
-    box-shadow: 1px 1px 1px black;
-    font-style: italic;
-    letter-spacing: 0.1em;
-}
-
-h3 {
-    font-family: var(--fonte2);
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    background-image: linear-gradient(to bottom, white , lightgray);
-    margin-top: -20px;
-    text-shadow: 1px 1px 2px black;
-    letter-spacing: 0.1em;
-}
-
-section > p {
-    font-family: var(--fonte2);
-    padding: 0px 0px 20px 30px;
-    font-size: 18px;
-    line-height: 50px;
-    text-shadow: 0px 0px 1px black;
-    text-indent: 30px;
-    letter-spacing: 0.1em;
-    max-width: 800px;
-}
-
-section#diana2 {
+div {
     background-image: url(../imagens/diana-titulo.jpg);
     background-size: cover;
-    background-position: 70% 50%;
-    background-attachment: fixed;
+    background-position: 50% 30%;
+    padding: 30px;
+    font-family: var(--fonte2);
+    color: white;
+    text-align: left;
+    text-shadow: 0px 0px 3px white;
 }
 
-section#riven2 {
-
+div h1 {
+    padding-left: 150px;
+    font-size: 4vw;
 }
 
-section.normal {
-
+div p {
+    padding-left: 110px;
+    font-size: 2.5vw;
 }
-
-section.imagem > p {
-    background-color:rgba(255, 255, 255, 0.219);
-}
-
 
