@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="form.php" method="post">
+        <p>
+            <label for="iest"><strong>Estado:</strong></label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RE">Rio Grande do Norte</option>
+                </optgroup>
+            </select> 
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listp">
+            <datalist id="listp">
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+                <option value="JOG">Jogador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imen">Mensagem:</label><br>
+            <textarea name="men" id="imen" cols="30" rows="10"></textarea>
+        </p>
+            
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
