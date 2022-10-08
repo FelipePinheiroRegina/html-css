@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinha de marcação</title>
+    <style>
+
+        fieldset input {    
+            margin: 10px;
+            
+
+            
+
+        }
+
+        
+
+        fieldset {
+            border: 1px solid red;
+            padding: 20px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Melhores Esportes</h1>
+    <form action="esportes.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" checked name="sexo" id="isxmasc"><label for="isxmasc">Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfemi"><label for="isxfemi">Feminino</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Lista de Esportes</legend>
+            <input  type="checkbox" checked name="esfut" id="iesfut"><label for="iesfut" >Futebol</label><br>
+            <input type="checkbox" name="esbasq" id="iesbasq"><label for="iesbasq">Basquete</label><br>
+            <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Vôlei</label><br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
