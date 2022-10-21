@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+legend {
+    background-color: lightgray;
+    width: 400px;
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+td:nth-child(odd) {
+    background-color: gray;
+}
