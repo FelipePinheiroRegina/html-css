@@ -1,32 +1,67 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: treino;
+    src: url(../fontes/treino.ttf);
+}
+
+:root {
+    --fonte1:'treino', Arial, Helvetica, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte1);
 }
 
-table {
-    border-collapse: collapse;
+header {
+     width: 100vw; 
+     height: 100px;  
+     background-color: yellow;
+     text-align: center;
 }
 
-legend {
-    background-color: lightgray;
-    width: 400px;
-    border: 1px solid black;
+header h1 {
+    padding-top: 25px;
+    font-size: 3em;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
 }
 
-th {
-    border: 1px solid black;
-    
+div#hamb {
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
 }
 
-td {
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
+div > span:hover {
+    background-color: white;
+    border-radius: 50%;
+    background-color: white;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+nav {
+    display: none;
+    width: 100vw;
+    background-color: yellow;
     text-align: center;
 }
 
-td:nth-child(odd) {
-    background-color: gray;
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    padding: 3px;
+}
+
+nav a:hover {
+    background-color: white;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    font-style: italic;
 }

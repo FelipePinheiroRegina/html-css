@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratica de HTML5 CCS3</title>
+    <title>Musculação</title>
     <link rel="shortcut icon" href="imagens/ico-html.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    <main>
-       <table>
-            <legend>Ola, Pessoas!</legend>
-        <thead>
-            <th>quantas pessoas?</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-                    
-            </tr>
-        </tbody>
-       </table>
-
-    </main>
+    <header>
+        <h1>
+            Treinamento
+        </h1>
+    </header>
+    <div id="hamb">
+        <span class="material-icons" onclick="clickMenu()">menu</span>
+    </div>
+    <nav id="itens">
+        <ul>
+            <li><a href="#">Chest</a></li>
+            <li><a href="#">Backs</a></li>
+            <li><a href="#">Shoulder</a></li>
+            <li><a href="#">Bíceps</a></li>
+            <li><a href="#">Tríceps</a></li>
+            <li><a href="#">Legs</a></li>
+            <li><a href="#">Abdômen</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
