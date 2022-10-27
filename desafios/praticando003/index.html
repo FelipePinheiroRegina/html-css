@@ -15,21 +15,29 @@
         <h1>
             Treinamento
         </h1>
+        <div id="hamb">
+            <span class="material-icons" onclick="clickMenu()">menu</span>
+        </div>
+        <nav id="itens">
+            <ul>
+                <li><a href="peito.html" target="tela" >Peito</a></li>
+                <li><a href="costas.html" target="tela" >Costas</a></li>
+                <li><a href="#">Ombros</a></li>
+                <li><a href="#">Bíceps</a></li>
+                <li><a href="#">Tríceps</a></li>
+                <li><a href="#">Pernas</a></li>
+                <li><a href="#">Abdômen</a></li>
+            </ul>
+        </nav>
     </header>
-    <div id="hamb">
-        <span class="material-icons" onclick="clickMenu()">menu</span>
-    </div>
-    <nav id="itens">
-        <ul>
-            <li><a href="#">Chest</a></li>
-            <li><a href="#">Backs</a></li>
-            <li><a href="#">Shoulder</a></li>
-            <li><a href="#">Bíceps</a></li>
-            <li><a href="#">Tríceps</a></li>
-            <li><a href="#">Legs</a></li>
-            <li><a href="#">Abdômen</a></li>
-        </ul>
-    </nav>
+    
+    <main>
+        <section id="treino">
+            <iframe src="" name="tela"  id="tela"  frameborder="0">
+
+            </iframe>
+        </section>
+    </main>
     
     <script>
         function clickMenu() {
@@ -37,6 +45,12 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+
+            if (treino.style.display == 'block') {
+                treino.style.display = 'none'
+            } else {
+                treino.style.display = 'block'
             }
         }
     </script>
