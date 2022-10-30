@@ -81,17 +81,27 @@ main {
 #treino {
     position: absolute;
     display: block;
-    height: 500px;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
     
+    top: 5%;
     left: 50%;
     transform: translate(-50%);
     
 }
 
 #tela {
+    position: absolute;
     display: block;    
-    height: 490px;
-    padding: 20px;
+    height: 398px;
+    width: 249px;
+    
+
+    left: 1px;
+    
+    
     
 }
 
