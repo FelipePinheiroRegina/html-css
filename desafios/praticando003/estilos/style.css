@@ -73,18 +73,26 @@ nav > ul > li > a:hover {
 main {
     position: relative;
     height: 100vh;
+    
     background: yellow url(../imagens/gym.jpg) no-repeat;
     background-size: cover;
 }
 
 #treino {
+    position: absolute;
     display: block;
     height: 500px;
+    
+    left: 50%;
+    transform: translate(-50%);
+    
 }
+
 #tela {
     display: block;    
     height: 490px;
     padding: 20px;
+    
 }
 
 
