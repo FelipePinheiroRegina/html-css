@@ -12,14 +12,10 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte1);
-}
-
-body {
-    background-color: yellow;
 }
 
 header {
+    font-family: var(--fonte1);
      background-color: yellow;
 }
 
@@ -46,6 +42,7 @@ div > span:hover {
 }
 
 nav {
+    font-family: var(--fonte1);
     display: none;
     text-align: center;
 }
@@ -75,8 +72,11 @@ main {
     position: relative;
     height: 100vh;
     
-    background: yellow url(../imagens/gym.jpg) no-repeat;
+    background: yellow url(../imagens/gym3.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom right;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 
 #treino {
@@ -90,7 +90,6 @@ main {
     top: 5%;
     left: 50%;
     transform: translate(-50%);
-    
 }
 
 #tela {
@@ -98,12 +97,35 @@ main {
     display: block;    
     height: 398px;
     width: 249px;
-    
-
     left: 1px;
-    
-    
-    
 }
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 3vh;
+}
+
+footer p {
+    text-decoration: underline;
+}
+
+footer > a > img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.137);
+}
+
+footer > a > img:hover {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
 
 

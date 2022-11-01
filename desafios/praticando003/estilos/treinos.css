@@ -74,12 +74,12 @@ section.imagem {
     
 }
 
-p {
+section p {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     font-family: var(--fonte1);
 }
 
-p.img {
+section p.img {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.301);
     padding: 10px;
