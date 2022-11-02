@@ -70,34 +70,31 @@ nav > ul > li > a:hover {
 main {
     position: relative;
     height: 100vh;
-    
     background: yellow url(../imagens/gym1.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom right;
+    
 }
 
 #treino {
     position: absolute;
     display: none;
-    width: 150px;
-    height: 301px;
+    width: 265px;
+    height: 220px;
+    border: 1px solid yellow;
     border-radius: 20px;
     overflow: hidden;
-    background-image: url(../imagens/frame-iphone.png);
-    background-repeat: no-repeat;
-    top: 50%;
-    left: 55%;
+    
+    
+    top: 2%;
+    left: 65%;
     transform: translate(-60%);
 }
 
 #tela {
     position: absolute;
     display: block;    
-    height: 235px;
-    width: 130px;
-    
-    left: 7%;
-    top: 10%;
+    height: 220px;
+    width: 265px;
 }
 
 footer {
