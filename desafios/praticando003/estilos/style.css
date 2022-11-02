@@ -55,10 +55,9 @@ nav > ul > li > a {
     display: block;
     color: black;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
     border-top: 1px solid rgba(0, 0, 0, 0.459);
-    padding: 3px;
 }
 
 nav > ul > li > a:hover {
@@ -72,9 +71,8 @@ main {
     position: relative;
     height: 100vh;
     
-    background: yellow url(../imagens/gym3.jpg) no-repeat;
+    background: yellow url(../imagens/gym1.jpg) no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: bottom right;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
