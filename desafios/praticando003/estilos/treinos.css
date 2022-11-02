@@ -32,7 +32,7 @@ header h1 {
     color: white;
     text-align: center;
     font-family: var(--fonte1);
-    font-size: 2em;
+    font-size: 1em;
     letter-spacing: 3px;
     text-shadow: 0px 6px 6px rgba(255, 255, 255, 0.116);
 
@@ -41,7 +41,7 @@ header h1 {
 h2 {
     color: yellow;
     text-align: center;
-    font-size: 2em;
+    font-size: 0.9em;
     font-family: var(--fonte1);
     background-color: black;
     letter-spacing: 3px;
@@ -56,8 +56,8 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 1.5em;
-    padding-left: 30px;
-    font-size: 1.5em;
+    padding-left: 5px;
+    font-size: 0.8em;
 }
 
 section.normal {
@@ -65,7 +65,7 @@ section.normal {
 }
 
 section.imagem {
-    background-image: url(../imagens/gym3.jpg);
+    background-image: url(../imagens/gym.jpg);
     background-size: cover;
     background-position: center right;
     background-attachment: fixed;
@@ -82,7 +82,7 @@ section p {
 section p.img {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.301);
-    padding: 10px;
+    
     border-radius: 20px;
 }
 

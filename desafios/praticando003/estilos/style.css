@@ -74,28 +74,30 @@ main {
     background: yellow url(../imagens/gym1.jpg) no-repeat;
     background-size: cover;
     background-position: bottom right;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 
 #treino {
     position: absolute;
-    display: block;
-    width: 250px;
-    height: 400px;
+    display: none;
+    width: 150px;
+    height: 301px;
     border-radius: 20px;
     overflow: hidden;
-    
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%);
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 55%;
+    transform: translate(-60%);
 }
 
 #tela {
     position: absolute;
     display: block;    
-    height: 398px;
-    width: 249px;
-    left: 1px;
+    height: 235px;
+    width: 130px;
+    
+    left: 7%;
+    top: 10%;
 }
 
 footer {
@@ -104,7 +106,7 @@ footer {
     color: white;
     text-align: center;
     padding-top: 1px;
-    padding-bottom: 3vh;
+    padding-bottom: 1vh;
 }
 
 footer p {
@@ -116,7 +118,6 @@ footer > a > img {
     border-radius: 50%;
     width: 30px;
     margin-left: 10px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.137);
 }
 
 footer > a > img:hover {
