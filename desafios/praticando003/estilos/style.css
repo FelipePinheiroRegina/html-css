@@ -71,6 +71,7 @@ main {
     position: relative;
     height: 100vh;
     background: yellow url(../imagens/gym1.jpg) no-repeat;
+    background-position: center right;
     background-size: cover;
     
 }
