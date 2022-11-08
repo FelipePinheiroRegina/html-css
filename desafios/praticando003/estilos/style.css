@@ -70,7 +70,7 @@ nav > ul > li > a:hover {
 main {
     position: relative;
     height: 100vh;
-    background: yellow url(../imagens/gym1.jpg) no-repeat;
+    background: yellow url(../imagens/fundo.jpg) no-repeat;
     background-size: cover;
     background-position: center right;
 }
@@ -80,13 +80,13 @@ main {
     display: none;
     width: 265px;
     height: 220px;
-    border: 1px solid yellow;
+    border: 2px solid black;
     border-radius: 20px;
     overflow: hidden;
     
     
     top: 2%;
-    left: 65%;
+    left: 35%;
     transform: translate(-60%);
 }
 
@@ -117,10 +117,7 @@ footer > a > img {
     margin-left: 10px;
 }
 
-footer > a > img:hover {
-    border: 2px solid white;
-    box-sizing: border-box;
-}
+
 
 
 
