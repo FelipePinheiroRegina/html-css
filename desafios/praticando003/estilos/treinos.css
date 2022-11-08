@@ -65,9 +65,9 @@ section.normal {
 }
 
 section.imagem {
-    background-image: url(../imagens/gym.jpg);
+    background-image: url(../imagens/peito.jpg);
     background-size: cover;
-    background-position: center right;
+    background-position: 0% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     box-shadow: inset 0px 0px 10px black;
