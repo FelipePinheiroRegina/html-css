@@ -96,6 +96,32 @@ main {
     width: 265px;
 }
 
+aside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+aside > table {
+    border-collapse: collapse;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+table td, th {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+table > tbody tr:nth-child(2n) {
+    background-color: yellow;
+    color: black;
+}
+
+
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
