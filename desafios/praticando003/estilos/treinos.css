@@ -65,13 +65,95 @@ section.normal {
 }
 
 section.imagem {
+    box-shadow: inset 0px 0px 10px black;
+}
+
+section#peito {
     background-image: url(../imagens/peito.jpg);
     background-size: cover;
     background-position: 0% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    box-shadow: inset 0px 0px 10px black;
-    
+}
+
+section#costa {
+    background-image: url(../imagens/costas.jpg);
+    background-size: cover;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#ombro {
+    background-image: url(../imagens/ombro.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#trapezio {
+    background-image: url(../imagens/trapezio.jpg);
+    background-size: cover;
+    background-position: left  right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#biceps {
+    background-image: url(../imagens/biceps.jpg);
+    background-size: cover;
+    background-position: center  center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#triceps {
+    background-image: url(../imagens/triceps.jpg);
+    background-size: cover;
+    background-position: center  center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#quadriceps {
+    background-image: url(../imagens/quadriceps.jpg);
+    background-size: cover;
+    background-position: center  center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#femoral {
+    background-image: url(../imagens/femoral.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#panturrilha {
+    background-image: url(../imagens/pant.jpg);
+    background-size: cover;
+    background-position: center  center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#panturrilha {
+    background-image: url(../imagens/pant.jpg);
+    background-size: cover;
+    background-position: center  center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#abdomen {
+    background-image: url(../imagens/abdomen.jpg);
+    background-size: cover;
+    background-position: bottom left  ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 section p {
@@ -82,7 +164,8 @@ section p {
 
 section p.img {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.507);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
     border-radius: 5px;
 }
 

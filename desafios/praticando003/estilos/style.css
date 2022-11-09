@@ -80,14 +80,13 @@ main {
     display: none;
     width: 265px;
     height: 220px;
-    border: 2px solid black;
     border-radius: 20px;
     overflow: hidden;
     
     
-    top: 2%;
-    left: 35%;
-    transform: translate(-60%);
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 #tela {
