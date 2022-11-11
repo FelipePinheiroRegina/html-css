@@ -78,7 +78,7 @@ main {
 #treino {
     position: absolute;
     display: none;
-    width: 265px;
+    width: 300px;
     height: 220px;
     border-radius: 20px;
     overflow: hidden;
@@ -93,14 +93,13 @@ main {
     position: absolute;
     display: block;    
     height: 220px;
-    width: 265px;
+    width: 300px;
 }
 
 aside {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+    padding-top: 350px;
+    padding-left: 80px;
+    
 }
 
 aside > table {
