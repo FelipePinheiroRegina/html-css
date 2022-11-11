@@ -82,7 +82,7 @@ main {
     height: 220px;
     border-radius: 20px;
     overflow: hidden;
-    
+    border: 1px solid white;
     
     top: 2%;
     left: 50%;
@@ -98,7 +98,7 @@ main {
 
 aside {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -114,7 +114,11 @@ aside > p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: justify;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 aside table  span {
