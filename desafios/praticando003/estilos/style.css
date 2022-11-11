@@ -78,13 +78,13 @@ main {
 #treino {
     position: absolute;
     display: none;
-    width: 300px;
+    width: 350px;
     height: 220px;
     border-radius: 20px;
     overflow: hidden;
     
     
-    top: 5%;
+    top: 2%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -93,25 +93,26 @@ main {
     position: absolute;
     display: block;    
     height: 220px;
-    width: 300px;
+    width: 350px;
 }
 
 aside {
-    padding-top: 350px;
-    padding-left: 80px;
-    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 aside > table {
     border-collapse: collapse;
-    color: white;
-    background-color: black;
+    background-color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table td, th {
-    border: 1px solid white;
-    padding: 5px;
+    border: 1px solid black;
+    padding: 3px;
 }
 
 table > tbody tr:nth-child(2n) {
@@ -119,7 +120,10 @@ table > tbody tr:nth-child(2n) {
     color: black;
 }
 
-
+table a {
+    color: black;
+    text-decoration: none;
+}
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
