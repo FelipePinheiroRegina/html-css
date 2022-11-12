@@ -29,19 +29,21 @@ header h1 {
 
 ul#login {
     text-align: left;
-    color: black;
     margin-left: 10px;
+    list-style-type: none;
 }
 
 ul#login a {
-    color: black;
+    background-color: black;
+    color: white;
     text-decoration: none;
-    
+    padding: 2px;
+    border-radius: 3px;
 }
 
 ul#login a:hover {
-    background-color: black;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 
 div#hamb {
@@ -147,7 +149,7 @@ aside > p {
 div#container {
     background-color: white;
     overflow-x: auto;
-    max-height: 400px;
+    max-height: 380px;
     border: 1px solid white;
 }
 
