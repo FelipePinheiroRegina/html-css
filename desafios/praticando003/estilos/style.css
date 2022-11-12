@@ -27,6 +27,23 @@ header h1 {
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
 }
 
+ul#login {
+    text-align: left;
+    color: black;
+    margin-left: 10px;
+}
+
+ul#login a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+ul#login a:hover {
+    background-color: black;
+    color: white;
+}
+
 div#hamb {
     background-color: yellow;
     text-align: center;
@@ -130,7 +147,7 @@ aside > p {
 div#container {
     background-color: white;
     overflow-x: auto;
-    max-height: 300px;
+    max-height: 400px;
     border: 1px solid white;
 }
 
