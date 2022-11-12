@@ -103,11 +103,14 @@ aside {
     transform: translate(-50%);
 }
 
+
+
 aside > table {
     border-collapse: collapse;
     background-color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 aside > p {
@@ -119,10 +122,14 @@ aside > p {
     background-color: black;
     border-radius: 5px;
     border: 1px solid white;
+    max-width: 327px;
 }
 
-aside table  span {
-    
+div#container {
+    background-color: white;
+    overflow-x: auto;
+    max-height: 290px;
+    border: 1px solid white;
 }
 
 legend {
@@ -137,16 +144,22 @@ legend {
 table td, th {
     border: 1px solid black;
     padding: 3px;
+    
 }
 
 table > tbody tr:nth-child(2n) {
     background-color: yellow;
     color: black;
+    
 }
 
 table a {
     color: black;
-    text-decoration: none;
+    
+}
+
+table a:hover {
+    color: blue;
 }
 
 footer {
