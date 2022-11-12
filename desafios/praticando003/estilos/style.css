@@ -114,7 +114,7 @@ aside > table {
 }
 
 aside > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte1);
     color: white;
     text-align: justify;
     margin-bottom: 10px;
@@ -123,12 +123,14 @@ aside > p {
     border-radius: 5px;
     border: 1px solid white;
     max-width: 327px;
+    line-height: 25px;
+    
 }
 
 div#container {
     background-color: white;
     overflow-x: auto;
-    max-height: 290px;
+    max-height: 300px;
     border: 1px solid white;
 }
 
@@ -141,9 +143,14 @@ legend {
     font-family: var(--fonte1);
 }
 
+thead th {
+    font-family: var(--fonte1);
+}
+
 table td, th {
     border: 1px solid black;
     padding: 3px;
+    
     
 }
 
@@ -155,6 +162,7 @@ table > tbody tr:nth-child(2n) {
 
 table a {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
