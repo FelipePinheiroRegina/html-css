@@ -27,25 +27,6 @@ header h1 {
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
 }
 
-ul#login {
-    text-align: left;
-    margin-left: 10px;
-    list-style-type: none;
-}
-
-ul#login a {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    padding: 2px;
-    border-radius: 3px;
-}
-
-ul#login a:hover {
-    background-color: yellow;
-    color: black;
-}
-
 div#hamb {
     background-color: yellow;
     text-align: center;
@@ -103,7 +84,7 @@ main {
     overflow: hidden;
     border: 1px solid white;
     
-    top: 2%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -185,8 +166,13 @@ table a {
     
 }
 
-table a:hover {
-    color: blue;
+tfoot th {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 3px;
+    font-family: var(--fonte1);
 }
 
 footer {
