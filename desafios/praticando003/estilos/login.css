@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'academia';
-    src: url(fontes/treino.ttf);
+    src: url(../fontes/treino.ttf);
 }
 
 :root {
@@ -42,11 +42,11 @@ section {
 }
 
 div#imagem {
-    background-image: url(imagens/fundo.jpg);
+    background-image: url(../imagens/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 60%;
+    height: 65%;
     
     
 }
@@ -57,6 +57,7 @@ div#p {
     text-align: center;
     margin-top: 20px;
     color: white;
+    background-image: linear-gradient(to right, yellow, black);
 }
 
 div#formulario {
@@ -65,11 +66,22 @@ div#formulario {
     color: white;
 }
 
-
+span {
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 form  input {
     width: 80%;
     height: 25px;
+}
+
+form > input[type=submit], [type=reset] {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
 
