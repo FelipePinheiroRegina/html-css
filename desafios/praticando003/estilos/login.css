@@ -30,7 +30,7 @@ main {
 section {
     position: relative;
     width: 300px;
-    height: 500px;
+    height: 600px;
     background-color: black;
     border-radius: 10px;
     overflow: hidden;
@@ -46,7 +46,7 @@ div#imagem {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 63%;
+    height: 69%;
     
     
 }
@@ -75,12 +75,10 @@ div#formulario span {
 
 div#volta span {
     position: relative;
-    background-color: white;
     color: black;
-    font-size: 4em;
-    border: 1px solid black;
-    border-radius: 50%;
+    font-size: 2em;
     
+    top: 5px;
     left: 5px;
 
 }
