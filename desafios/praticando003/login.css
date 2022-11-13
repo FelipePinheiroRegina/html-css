@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'academia';
+    src: url(fontes/treino.ttf);
+}
+
+:root {
+    --fonte1: 'academia';
+    --fonte2: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte1);
+}
+
+html,body {
+    background-color: yellow;
+}
+
+main {
+    position: absolute;
+    background-color: yellow;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 50%;
+    
+}
+
+
+
