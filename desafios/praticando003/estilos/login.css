@@ -30,15 +30,15 @@ main {
 section {
     position: relative;
     width: 300px;
-    height: 600px;
+    height: 500px;
     background-color: black;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    transform: translate(-50%, -30%);
 }
 
 div#imagem {
@@ -46,7 +46,7 @@ div#imagem {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 65%;
+    height: 63%;
     
     
 }
@@ -55,8 +55,8 @@ div#p {
     text-transform: uppercase;
     font-style: italic;
     text-align: center;
-    margin-top: 20px;
-    color: white;
+    margin-top: 5px;
+    color: black;
     background-image: linear-gradient(to right, yellow, black);
 }
 
@@ -66,11 +66,23 @@ div#formulario {
     color: white;
 }
 
-span {
+div#formulario span {
     background-color: yellow;
     color: black;
     border-radius: 50%;
     cursor: pointer;
+}
+
+div#volta span {
+    position: relative;
+    background-color: white;
+    color: black;
+    font-size: 4em;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+    left: 5px;
+
 }
 
 form  input {
