@@ -7,6 +7,8 @@
     <title>Entrar</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -14,14 +16,20 @@
             <div id="imagem">
                
             </div>
-        
-            <div id="formulario">
+            <div id="p">
                 <p>
-                    Bem-Vindo faça seu login para entrar em nosso site de treinos.
+                    Bem-Vindo <br>
+                    Ao <br>
+                    Treinamento Gym<sup>'</sup>s
                 </p>
-                <form action="login.php" method="post">
-                    <label for="iemail">E-mail:<input type="email" name="email" id="iemail"></label>
-                    <label for="isenha">Senha:<input type="password" name="senha" id="isenha"></label>
+            </div>
+            <div id="formulario">
+                    <form action="login.php" method="post" autocomplete="on">
+                    <label for="iemail"><span class="material-icons">person</span></label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required minlength="8" maxlength="30" placeholder="E-mail">
+                    <br>
+                    <label for="isenha"><span class="material-icons">key</span></label>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="16" placeholder="Senha">
                 </form>
             </div>
         </section>

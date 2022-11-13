@@ -29,11 +29,12 @@ main {
 
 section {
     position: relative;
-    width: 400px;
+    width: 300px;
     height: 600px;
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 
     left: 50%;
     top: 50%;
@@ -44,9 +45,31 @@ div#imagem {
     background-image: url(imagens/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center right;
-    height: 50%;
+    background-position: center;
+    height: 60%;
     
+    
+}
+
+div#p {
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+div#formulario {
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+
+
+form  input {
+    width: 80%;
+    height: 25px;
 }
 
 
