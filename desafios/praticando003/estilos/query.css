@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    div#hamb {
+        display: none ;
+    }
+
+    nav {
+        display: block;
+    }
+    
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        background-image: url(../imagens/fundo-m.jpg);
+        background-position: center right;
+        background-size: cover;
+    }
+
+    #treino {
+        width: 350px;
+        height: 250px;
+
+        top: 3%;
+        left: 24%;
+        
+    }
+
+    #tela {
+        width: 350px;
+        height: 250px;
+    }
+    
+    aside {
+        top: 3%;
+        left: 74%;
+    }
+    aside p {
+        min-width: 350px;
+    }
+    
+    aside table {
+        width: 350px;
+        
+    }
+
+    
+}

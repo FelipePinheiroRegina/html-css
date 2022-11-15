@@ -21,7 +21,7 @@ header {
 
 header h1 {
     padding: 25px;
-    font-size: 3em;
+    font-size: 8vw;
     text-align: center;
     letter-spacing: 5px;
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
@@ -78,12 +78,12 @@ main {
 #treino {
     position: absolute;
     display: none;
-    width: 350px;
+    min-width: 320px;
     height: 220px;
     border-radius: 20px;
     overflow: hidden;
     
-    top: 3%;
+    top: 1%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -92,12 +92,12 @@ main {
     position: absolute;
     display: block;    
     height: 220px;
-    width: 350px;
+    min-width: 320px;
 }
 
 aside {
     position: absolute;
-    top: 40%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -121,7 +121,8 @@ aside > p {
     background-color: black;
     border-radius: 5px;
     border: 1px solid white;
-    max-width: 327px;
+    max-width: 360px;
+    min-width: 320px;
     line-height: 25px;
     
 }
@@ -129,7 +130,8 @@ aside > p {
 div#container {
     background-color: white;
     overflow-x: auto;
-    max-height: 380px;
+    min-width: 320px;
+    height: 220px;
     border: 1px solid white;
 }
 
@@ -144,6 +146,9 @@ legend {
 
 thead th {
     font-family: var(--fonte1);
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 table td, th {
