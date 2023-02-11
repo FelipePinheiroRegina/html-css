@@ -11,29 +11,29 @@
       rel="stylesheet">
       <link rel="stylesheet" href="estilos/query.css">
 </head>
-<body onresize="mudouTamanho()">
+<body onresize="mudoutamanho()">
     <header>
         <h1>
             Treinamento
             <br>
             Gym<sup>'</sup>s
         </h1>
-       <div id="hamb">
+       <div id="hamb" onclick="menu()">
             <span class="material-icons" onclick="clickMenu()">menu</span>
         </div>
-        <nav id="itens">
-            <ul>
-                <li><a href="peito.html" target="tela" >Peito</a></li>
-                <li><a href="costas.html" target="tela" >Costas</a></li>
-                <li><a href="ombros.html" target="tela">Ombros e Trapézio</a></li>
-                <li><a href="biceps.html" target="tela">Bíceps</a></li>
-                <li><a href="triceps.html" target="tela">Tríceps</a></li>
-                <li><a href="pernas.html" target="tela">Pernas</a></li>
-                <li><a href="abdomen.html" target="tela">Abdômen</a></li>
-                <li><a href="login.html" target="_self" rel="next">Entrar/Simulação de Login</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav id="itens">
+        <ul >
+            <li><a href="peito.html" target="tela" >Peito</a></li>
+            <li><a href="costas.html" target="tela" >Costas</a></li>
+            <li><a href="ombros.html" target="tela">Ombros e Trapézio</a></li>
+            <li><a href="biceps.html" target="tela">Bíceps</a></li>
+            <li><a href="triceps.html" target="tela">Tríceps</a></li>
+            <li><a href="pernas.html" target="tela">Pernas</a></li>
+            <li><a href="abdomen.html" target="tela">Abdômen</a></li>
+            <li><a href="login.html" target="_self" rel="next">Entrar/Simulação de Login</a></li>
+        </ul>
+    </nav>
     
     <main>
        <section id="treino">
@@ -108,6 +108,7 @@
                 </Table>
             </div>
         </aside>
+    <script src="script.js"></script>    
     </main>
     <footer>
         <p>
@@ -120,28 +121,6 @@
         <a href="https://www.facebook.com/felipe.pinheiro.7330/" target="_blank" rel="external"><img src="imagens/logo-facebook.jpg" alt="Facebook"></a>
     </footer>
     
-    <script>
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-
-            if (treino.style.display == 'block') {
-                treino.style.display = 'none'
-            } else {
-                treino.style.display = 'block'
-            }
-        }
-
-        function mudouTamanho() {
-            if (window.innerWidth >= 768){
-                itens.style.display = 'block'
-            } else {
-                itens.style.display = 'none'
-            }
-        }
-    </script>
+    
 </body>
 </html>
