@@ -21,5 +21,7 @@ function mudoutamanho(){
         hamburguer.style.display = 'block'
        
     }
+
+    
 }
 

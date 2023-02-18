@@ -16,6 +16,10 @@
         display: none;
     }
 
+    nav#itens {
+        display: block;
+    }
+
     nav#itens > ul > li {
         text-align: left;
         font-size: 1.3em;
