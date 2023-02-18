@@ -53,18 +53,12 @@ nav > ul {
 }
 
 nav > ul > li > a {
+    display: block;
     color: black;
     text-decoration: none;
     font-size: 1em;
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
     border-top: 1px solid rgba(0, 0, 0, 0.459);
-}
-
-nav > ul > li > a:hover {
-    background-color: white;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
-    font-style: italic;
 }
 
 main {
@@ -78,9 +72,9 @@ main {
 #treino {
     position: absolute;
     display: block;
-    min-width: 320px;
+    width: 350px;
     height: 220px;
-    border-radius: 20px;
+    
     overflow: hidden;
     top: 1%;
     left: 50%;
@@ -90,7 +84,7 @@ main {
 #tela {
     position: absolute;
     height: 220px;
-    min-width: 320px;
+    width: 350px;
 }
 
 aside {
@@ -117,10 +111,8 @@ aside > p {
     margin-bottom: 10px;
     padding: 5px;
     background-color: black;
-    border-radius: 5px;
     border: 1px solid white;
-    max-width: 360px;
-    min-width: 320px;
+    width: 335px;
     line-height: 25px;
     
 }
